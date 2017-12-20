@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 100vw;
+  padding: 0px;
+}
+
+.row {
+  margin-top: 5%;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0px;
+}
+
+.headerbar {
+  padding: 0px;
+}
+
+.friendbox {
+  width: 100%;
+}
+
+#header {
+  margin: 0px;
+}

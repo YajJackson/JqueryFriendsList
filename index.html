@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Friends</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row" id="header">
+      <div class="col-12 headerbar">
+        <nav class="navbar justify-content-center navbar-dark bg-dark">
+          <span class="navbar-brand mb-0 h1">Besties</span>
+        </nav>
+      </div>
+      
+    </div>
+
+    <div class="row justify-content-center align-items-center">
+      <div class="col-4">
+        <div class='friendbox'>
+          <form>
+            <div class='input-group'>
+              <input text='text' id='input' class='form-control'>
+              <span class='input-group-btn'>
+                <button type='submit' class='btn btn-dark' id='add'>Add Friend</button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header text-light bg-dark">
+            <strong>Friends</strong>
+          </div>
+          <div class="list-group list-group-flush" id='friend-list'>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Friend 1</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Friend 2</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Friend 3</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
