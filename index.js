@@ -2,6 +2,7 @@ $(() => {
   // add form submit handler
   $('#friend-form').submit(() => {
     $('#friend-list').append(createFriend($('#input').val()))
+    $('#input').val('')
   })
 
   const createFriend = (name) => 
